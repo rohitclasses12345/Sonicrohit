@@ -37,7 +37,7 @@ bot = Client(
 @bot.on_message(filters.command(["start"]))
 async def start(bot: Client, m: Message):
     editable = await m.reply_text(
-       f"𝐇𝐞𝐥𝐥𝐨 https://envs.sh/Hma.mp4\n\n https://envs.sh/vbp.jpg  ▁ ▂ ▄ ▅ ▆ ▇ █ 𝗦𝗧𝗥𝗔𝗡𝗚𝗘𝗥 𝗕𝗢𝗬 𝗨𝗽𝗹𝗼𝗮𝗱𝗶𝗻𝗴 𝘆𝗼𝘂𝗿 𝘁𝗮𝘀𝗸 █ ▇ ▆ ▅ ▄ ▂ ▁\n\n❈ I Am A Bot For Download Links From Your **THE_BOYS** File And Then Upload That File Om Telegram So Basically\n\n If You Want To Use Me First Send Me ⟰ \n /THE_BOYS Command And Then Follow Few Steps..\n\n I working link ALL APP TXT WORKING NOT WORKING YOUTUBE LINK. \n\n YOUTUBE LINK WORKING SOON POSSIBLE....\n\n more apps add SOON update contact me :- <a href='https://telegram.me/SONICKUWALSSCBOT'>❖ https://envs.sh/Hma.mp4 🔥💀  𝐬ŤŘÃᑎᵍｅⓇ вⓞⓨ ｓ𝓽Δⓡｔⓘήｇ ｙ𝓞ᵘⓇ ᗷσ𝐓  😾♡ ❖ ™</a>", reply_markup=InlineKeyboardMarkup(
+       f"𝐇𝐞𝐥𝐥𝐨 https://envs.sh/Hma.mp4\n\n https://envs.sh/vbp.jpg  ▁ ▂ ▄ ▅ ▆ ▇ █ 𝗦𝗧𝗥𝗔𝗡𝗚𝗘𝗥 𝗕𝗢𝗬 𝗨𝗽𝗹𝗼𝗮𝗱𝗶𝗻𝗴 𝘆𝗼𝘂𝗿 𝘁𝗮𝘀𝗸 █ ▇ ▆ ▅ ▄ ▂ ▁\n\n❈ I Am A Bot For Download Links From Your **THE_BOYS** File And Then Upload That File Om Telegram So Basically\n\n If You Want To Use Me First Send Me ⟰ \n /THE_BOYS Command And Then Follow Few Steps..\n\n I working link ALL APP TXT WORKING NOT WORKING YOUTUBE LINK. \n\n YOUTUBE LINK WORKING SOON POSSIBLE....\n\n more apps add SOON update contact me :- <a href='https://telegram.me/Strangerboy27_bot_strangerboy'>❖ https://envs.sh/Hma.mp4   🔥💀  𝐬ŤŘÃᑎᵍｅⓇ вⓞⓨ ｓ𝓽Δⓡｔⓘήｇ ｙ𝓞ᵘⓇ ᗷσ𝐓  😾♡ ❖ ™</a>", reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton("✜ 𝐉𝐨𝐢𝐧 𝐔𝐩𝐃𝐚𝐭𝐞 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 ✜" ,url=f"https://t.me/+EU-tiwyLZBMzY2Jl") ],
@@ -55,7 +55,7 @@ async def restart_handler(_, m):
 
 @bot.on_message(filters.command(["THE_BOYS"]))
 async def upload(bot: Client, m: Message):
-    editable = await m.reply_text('𝕤ᴇɴᴅ ᴛxᴛ ғɪʟᴇ ↗️replace.**\n\nDeveloper** ─╤╦︻ ⳜƬⱤ𐤠ƝƓƸⱤ ƁΘƳ ⱤΘǶƖƬ ︻╦╤─ 🎀  𝑅💗𝒽𝒾𝓉  🎀**')
+    editable = await m.reply_text('𝕤ᴇɴᴅ ᴛxᴛ ғɪʟᴇ ↗️replace.**\n\nDeveloper** https://envs.sh/Hma.mp4    🎀  𝑅💗𝒽𝒾𝓉  🎀**')
     input: Message = await bot.listen(editable.chat.id)
     x = await input.download()
     await input.delete(True)
@@ -239,7 +239,7 @@ async def upload(bot: Client, m: Message):
 
     except Exception as e:
         await m.reply_text(e)
-    await m.reply_text("**▁ ▂ ▄ ▅ ▆ ▇ █ 𝗦𝗧𝗥𝗔𝗡𝗚𝗘𝗥 𝗕𝗢𝗬🧑‍💻  COMPLETED YOUR TASK👨‍💻 𝗥𝗢𝗛𝗜𝗧 👨‍💻🧑‍💻█ ▇ ▆ ▅ ▄ ▂ ▁**")
+    await m.reply_text("**▁ ▂ ▄ ▅ ▆ ▇ █ 𝗦𝗧𝗥𝗔𝗡𝗚𝗘𝗥 𝗕𝗢𝗬🧑‍💻  COMPLETED YOUR TASK👨‍💻 𝗥𝗢𝗛𝗜𝗧  https://envs.sh/Hma.mp4👨‍💻🧑‍💻█ ▇ ▆ ▅ ▄ ▂ ▁**")
 
 
 bot.run()
